@@ -4,11 +4,11 @@ var Twit = require('twit');
 // We need to include our configuration file
 var T = new Twit(require('./config.js'));
 
-// This is the URL of a search for the latest tweets on the '#mediaarts' hashtag.
-// Example
-//var mediaArtsSearch = {q: "#mediaarts", count: 10, result_type: "recent"}; 
+//This is the function that generates the tweet string
 
 function makeMeow(){
+	
+	//Not Used
 	
 	//Seconds Random
 	var sec = (Math.floor(Math.random()*60));
@@ -16,6 +16,8 @@ function makeMeow(){
 	var mins = (Math.floor(Math.random()*60));
 	//Hours Random
 	var hours = (Math.floor(Math.random()*4));
+	
+	
 	
 	//Assigns a random number to use for the amount of meows
 	var meowRand = (Math.floor(Math.random()*20));
