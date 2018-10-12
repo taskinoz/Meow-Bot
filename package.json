@@ -1,0 +1,28 @@
+{
+  "name": "meow-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot that will generate a tweet with a random amount of meows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskinoz/Meow-Bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "node",
+    "twit"
+  ],
+  "author": "Taskinoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taskinoz/Meow-Bot/issues"
+  },
+  "homepage": "https://github.com/taskinoz/Meow-Bot#readme",
+  "devDependencies": {
+    "twit": "^2.2.11"
+  }
+}
